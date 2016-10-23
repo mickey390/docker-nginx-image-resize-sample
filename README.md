@@ -43,13 +43,13 @@ $ docker-compose stop
 (例:test1.jpg)
 
 - オリジナル画像
-    - http://localhost:8888/images/test1.jpg  
+    - http://localhost:8888/images/test1.jpg
 - リサイズ
-    - http://localhost:8888/images/test1.jpg?width=500&height=500&type=resize  
+    - http://localhost:8888/images/test1.jpg?width=500&height=500&type=resize
 - 切り出し
-    - http://localhost:8888/images/test1.jpg?width=500&height=500&type=crop  
+    - http://localhost:8888/images/test1.jpg?width=500&height=500&type=crop
 - 品質
-    - http://localhost:8888/images/test1.jpg?width=500&height=500&type=resize&quality=1  
+    - http://localhost:8888/images/test1.jpg?width=500&height=500&type=resize&quality=1
 
 
 
