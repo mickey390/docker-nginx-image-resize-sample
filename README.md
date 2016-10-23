@@ -2,7 +2,10 @@
 
 ## 概要
 
-nginxで画像をリサイズするサンプル
+nginxで画像をリサイズするdockerサンプル
+
+- centos6
+- nginx-1.11.5
 
 ## 準備
 
@@ -37,6 +40,12 @@ $ docker-compose stop
 ```
 
 適当な画像を`./nginx/images`に配置する  
+(例:test1.jpg)
+
+オリジナル画像：http://localhost:8888/images/test1.jpg  
+リサイズ：http://localhost:8888/images/test1.jpg?width=500&height=500&type=resize  
+切り出し：http://localhost:8888/images/test1.jpg?width=500&height=500&type=crop  
+品質：http://localhost:8888/images/test1.jpg?width=500&height=500&type=resize&quality=1  
 
 
 
